@@ -1,0 +1,150 @@
+.regform {
+    position: absolute;
+    left: 110px;
+    top: 200px;
+    color: white;
+    background-color: black;
+    font-family: neue machina;
+    display: grid;
+    width: 400px; /* Default width for larger screens */
+    padding: 20px;
+}
+
+.reginput {
+    width: 100%;
+    height: 64px;
+    border-radius: 5px;
+}
+
+.rl1 {
+    font-size: 25px;
+}
+
+.regbtn {
+    width: 100%;
+    height: 64px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
+
+.regbtn:hover {
+    color: white;
+    background-color: black;
+    border: 2px white solid;
+}
+
+.rlh1 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: white;
+    font-family: neue machina;
+}
+
+.regimg {
+    margin-left: 750px;
+    margin-top: 120px;
+}
+
+@media (max-width: 1024px) {
+    .regform {
+        left: 50px; /* Shift form left on medium screens */
+        top: 180px; /* Adjust top positioning */
+        width: 350px; /* Slightly reduce form width */
+        padding: 15px;
+    }
+
+    .rlh1 {
+        left: 50px;
+        top: 70px;
+        font-size: 24px;
+    }
+
+    .regimg {
+        margin-left: 600px; /* Adjust image position */
+        width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .regform {
+        width: 90%; /* Adjust form width */
+        left: 20px;
+        top: 150px;
+        padding: 15px;
+    }
+
+    .rlh1 {
+        left: 20px;
+        top: 60px;
+        font-size: 22px;
+    }
+
+    .reginput, .regbtn {
+        height: 50px; /* Reduce input/button height */
+    }
+
+    .rl1 {
+        font-size: 20px;
+    }
+
+    .regimg {
+        margin-left: 50%; /* Center image */
+        transform: translateX(-50%);
+        width: 200px; /* Smaller image for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .regform {
+        width: 90%;
+        left: 10px; /* Adjust for small screens */
+        top: 120px;
+        padding: 10px;
+    }
+
+    .rlh1 {
+        left: 10px;
+        top: 50px;
+        font-size: 18px;
+    }
+
+    .reginput, .regbtn {
+        height: 45px; /* Adjust for mobile */
+    }
+
+    .rl1 {
+        font-size: 18px;
+    }
+
+    .regimg {
+        width: 150px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 320px) {
+    .regform {
+        left: 5px;
+        width: 95%; /* Maximum width on very small screens */
+    }
+
+    .rlh1 {
+        left: 5px;
+        font-size: 16px; /* Smaller title for small screens */
+    }
+
+    .reginput, .regbtn {
+        height: 40px;
+    }
+
+    .rl1 {
+        font-size: 16px;
+    }
+
+    .regimg {
+        width: 120px;
+        margin-top: 40px;
+    }
+}

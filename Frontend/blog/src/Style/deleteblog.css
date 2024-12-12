@@ -1,0 +1,119 @@
+.dddpage {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.dddh1 {
+    font-family: neue machina;
+    text-align: center;
+    font-size: 5vw; /* Responsive font size */
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.dddimg {
+    display: block;
+    margin: 50px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.ddh11,
+.dddh11,
+.dddh12,
+.dddp {
+    margin: 20px auto;
+    font-family: neue machina;
+    text-align: center;
+    width: 80%;
+}
+
+.ddh11 {
+    font-size: 2.5vw; /* Responsive font size */
+    font-weight: bold;
+}
+
+.dddh11 {
+    font-size: 2vw; /* Responsive font size */
+    font-weight: bold;
+}
+
+.dddp {
+    font-size: 1.5vw; /* Responsive font size */
+    width: 100%;
+}
+
+.dddbtn,
+.dbdbtn {
+    display: block;
+    width: 60%;
+    max-width: 203px;
+    height: 64px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    font-weight: bold;
+    margin: 20px auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dddbtn:hover {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.dbdbtn:hover {
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .dddpage {
+        padding: 10px;
+    }
+
+    .dddh1 {
+        font-size: 6vw; /* Adjust font size slightly for small screens */
+    }
+
+    .ddh11,
+    .dddh11,
+    .dddp {
+        font-size: 4vw; /* Adjust font size slightly for small screens */
+        width: 100%; /* Ensure full width on smaller screens */
+    }
+
+    .dddbtn,
+    .dbdbtn {
+        width: 80%; /* Increase button width for smaller screens */
+        height: 50px; /* Reduce button height for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .dddpage {
+        padding: 5px;
+    }
+
+    .dddh1 {
+        font-size: 7vw; /* Further adjust font size for very small screens */
+    }
+
+    .ddh11,
+    .dddh11,
+    .dddp {
+        font-size: 4.5vw; /* Adjust font size slightly for very small screens */
+        width: 100%; /* Ensure full width on very small screens */
+    }
+
+    .dddbtn,
+    .dbdbtn {
+        width: 90%; /* Further increase button width for very small screens */
+        height: 45px; /* Further reduce button height for very small screens */
+    }
+}

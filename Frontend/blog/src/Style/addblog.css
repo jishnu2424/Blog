@@ -1,0 +1,97 @@
+.daform {
+    width: 100%;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Neue Machina', sans-serif;
+    padding: 0 20px;
+}
+
+.daff1 {
+    margin-left: 50px;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.daf2 {
+    width: 100%;
+    max-width: 476px;
+    height: 60px;
+    margin-left: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+.ddaff1 {
+    margin-left: 50px;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.dadf2 {
+    width: 100%;
+    max-width: 1110px;
+    height: 60px;
+    margin-left: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+.dab1 {
+    background-color: white;
+    border: black 2px solid;
+    color: black;
+    width: 100%;
+    max-width: 250px;
+    height: 62px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.dab1:hover {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .daform {
+        padding: 0 10px;
+    }
+
+    .daff1, .ddaff1 {
+        font-size: 1.75rem;
+    }
+
+    .daf2, .dadf2 {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .dab1 {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .daff1, .ddaff1 {
+        font-size: 1.5rem;
+    }
+
+    .daf2, .dadf2 {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .dab1 {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
